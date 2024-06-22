@@ -57,7 +57,6 @@ def get_comments(youtube, video_id):
     return comments
 
 
-
 def main_function(url, options):
     # Load environment variables from .env file
     load_dotenv(os.path.expanduser("~/.config/fabric/.env"))
